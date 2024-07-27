@@ -129,7 +129,6 @@ class _MyHomePageState extends State<MyHomePage> {
                           result = "Please fill all the required blanks!!";
                         });
                       }
-                      ;
                     },
                     child: Text('Calculate')),
                 SizedBox(
