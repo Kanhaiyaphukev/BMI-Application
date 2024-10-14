@@ -42,6 +42,9 @@ android {
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
     }
+    kotlinOptions {
+        jvmTarget = '17' // Set Kotlin to target JVM 17 if you're using Java 17
+    }
 
     buildTypes {
         release {
